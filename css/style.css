@@ -11,6 +11,14 @@ header{
     margin: 0 auto;
     padding: 6px 0;
 }
+.container-fluid{
+    max-width: 100%;
+}
+.container-fluid img{
+    max-width: 100%;
+    display: block;
+}
+
 .header-menu{
     background: #252323;
     display: flex;
@@ -56,4 +64,9 @@ header{
 .nav-ul li a:hover{
    color: aqua;
    border-bottom: 1px solid aqua;
+}
+
+.input-search{
+    background-image: url("../img/search.png");
+    padding: 8px;
 }
